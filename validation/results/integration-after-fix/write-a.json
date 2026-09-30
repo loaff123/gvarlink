@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/workspace/scratch/9b51759ecff4/gvarlink/.venv/bin/python",
+    "/workspace/scratch/9b51759ecff4/gvarlink/validation/fixture_worker.py",
+    "write",
+    "a",
+    "validation/results/integration-after-fix/a.gvl"
+  ],
+  "returncode": 0,
+  "wall_seconds": 0.18683392799721332,
+  "stdout": "{\"branch\": \"a\", \"path\": \"validation/results/integration-after-fix/a.gvl\", \"bytes\": 1539}\n",
+  "stderr": "",
+  "requested_address_space_bytes": 536870912,
+  "requested_cpu_seconds": 20,
+  "wall_timeout_seconds": 30
+}

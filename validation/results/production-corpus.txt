@@ -1,0 +1,12 @@
+test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) ... ok
+test_rejects_duplicate_noncanonical_and_large_integer_json (__main__.CandidateCorpus.test_rejects_duplicate_noncanonical_and_large_integer_json) ... ok
+test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) ... ok
+test_rejects_corruption_truncation_trailing (__main__.CandidateCorpus.test_rejects_corruption_truncation_trailing) ... ok
+test_nonregular_symlink_and_fifo_rejected (__main__.CandidateCorpus.test_nonregular_symlink_and_fifo_rejected) ... ok
+test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) ... ok
+test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.016s
+
+OK

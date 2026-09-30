@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/workspace/scratch/9b51759ecff4/gvarlink/.venv/bin/python",
+    "/workspace/scratch/9b51759ecff4/gvarlink/validation/fixture_worker.py",
+    "write",
+    "a",
+    "validation/results/integration/a.gvl"
+  ],
+  "returncode": 1,
+  "wall_seconds": 0.15262693299882812,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/9b51759ecff4/gvarlink/validation/fixture_worker.py\", line 57, in <module>\n    write_branch(sys.argv[2],Path(sys.argv[3]))\n  File \"/workspace/scratch/9b51759ecff4/gvarlink/validation/fixture_worker.py\", line 18, in write_branch\n    ctx = gl.Context([sources[key] for key in branch['source_order']])\n          ^^^^^^^^^^\nAttributeError: module 'gvarlink' has no attribute 'Context'\n",
+  "requested_address_space_bytes": 536870912,
+  "requested_cpu_seconds": 20,
+  "wall_timeout_seconds": 30
+}

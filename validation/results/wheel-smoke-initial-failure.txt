@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/wheel_smoke.py", line 12, in <module>
+    demo=subprocess.run([str(python),'-m','gvarlink','demo',str(root/'demo')],cwd=root,env=env,check=True,text=True,capture_output=True,timeout=45)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/tmp/gvarlink-wheel-1wclsp40/venv/bin/python', '-m', 'gvarlink', 'demo', '/tmp/gvarlink-wheel-1wclsp40/demo']' returned non-zero exit status 1.

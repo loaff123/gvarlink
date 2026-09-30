@@ -1,0 +1,9 @@
+# Bounded transport scale check
+
+Frozen before execution. Original synthetic affine inputs only. This is a development resource/transport check, not the earlier full detector benchmark or a performance ranking.
+
+Two independent writer processes each create32768 gvar outputs against65536 private standardized coordinates,4096 shared dark coordinates and8 shared modes. The source union has135176 coordinates; each row has11 nonzero coefficients. Private pair coefficients are1/8 and-1/4; dark coefficient-1/2 at row modulo4096; mode coefficients alternate signs by row+mode+branch at magnitude1/16. Means are100+row/1024+branch. Each writer uses native gvar_function, then Context.pack/write. A fresh process load_many restores both; full means, all marginal variances,32-by32 selected covariance blocks and scalar totals are checked against directly derived coefficients.
+
+Expected marginal variance23/64 (0.359375). Cross-branch corresponding-row covariance7/32 (0.21875), contrast variance9/32 (0.28125). Every mean/marginal entry tolerance5e-12; selected covariance absolute tolerance5e-12; sum variance tolerance5e-10*max(1,reference). Sum variance must count repeated dark coordinates and cancel alternating mode sums; each branch independent-exposure aggregate contributes32768*5/64, shared-dark aggregate4096*(8/2)^2=65536. Sum contrast variance5120; branch sum variance68096. Selected rows0,1,2,3,4095,4096,4097,8191,8192,16383,16384,24575,24576,32765,32766,32767; compare every selected same/cross block entry by direct coefficient vectors.
+
+Each child has wall timeout180seconds; successful run records process wall seconds, file sizes and RSS where getrusage is available. This is observed resource reporting, not an enforced1GiB sandbox. Stop/review on failure; retain it. Header/aggregate limits are unchanged. Do not increase limits or silently shrink this case after results. A decoder cannot promise process RSS from its wire admission ceiling.

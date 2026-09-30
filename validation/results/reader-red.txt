@@ -1,0 +1,69 @@
+FFFFFFFF
+======================================================================
+FAIL: test_empty_and_scalar_outputs (test_reference_reader.ReferenceReaderTests.test_empty_and_scalar_outputs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_reference_reader.py", line 46, in setUp
+    self.assertTrue(self.reader_path.exists(), 'independent data-only reader not implemented')
+AssertionError: False is not true : independent data-only reader not implemented
+
+======================================================================
+FAIL: test_nonregular_symlink_and_fifo_rejected (test_reference_reader.ReferenceReaderTests.test_nonregular_symlink_and_fifo_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_reference_reader.py", line 46, in setUp
+    self.assertTrue(self.reader_path.exists(), 'independent data-only reader not implemented')
+AssertionError: False is not true : independent data-only reader not implemented
+
+======================================================================
+FAIL: test_original_read_and_identity (test_reference_reader.ReferenceReaderTests.test_original_read_and_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_reference_reader.py", line 46, in setUp
+    self.assertTrue(self.reader_path.exists(), 'independent data-only reader not implemented')
+AssertionError: False is not true : independent data-only reader not implemented
+
+======================================================================
+FAIL: test_rejects_corruption_truncation_trailing (test_reference_reader.ReferenceReaderTests.test_rejects_corruption_truncation_trailing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_reference_reader.py", line 46, in setUp
+    self.assertTrue(self.reader_path.exists(), 'independent data-only reader not implemented')
+AssertionError: False is not true : independent data-only reader not implemented
+
+======================================================================
+FAIL: test_rejects_duplicate_noncanonical_and_large_integer_json (test_reference_reader.ReferenceReaderTests.test_rejects_duplicate_noncanonical_and_large_integer_json)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_reference_reader.py", line 46, in setUp
+    self.assertTrue(self.reader_path.exists(), 'independent data-only reader not implemented')
+AssertionError: False is not true : independent data-only reader not implemented
+
+======================================================================
+FAIL: test_rejects_rehashed_bad_csr_and_nonfinite (test_reference_reader.ReferenceReaderTests.test_rejects_rehashed_bad_csr_and_nonfinite)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_reference_reader.py", line 46, in setUp
+    self.assertTrue(self.reader_path.exists(), 'independent data-only reader not implemented')
+AssertionError: False is not true : independent data-only reader not implemented
+
+======================================================================
+FAIL: test_rejects_rehashed_hostile_metadata (test_reference_reader.ReferenceReaderTests.test_rejects_rehashed_hostile_metadata)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_reference_reader.py", line 46, in setUp
+    self.assertTrue(self.reader_path.exists(), 'independent data-only reader not implemented')
+AssertionError: False is not true : independent data-only reader not implemented
+
+======================================================================
+FAIL: test_small_limits_and_no_hard_limit_raise (test_reference_reader.ReferenceReaderTests.test_small_limits_and_no_hard_limit_raise)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_reference_reader.py", line 46, in setUp
+    self.assertTrue(self.reader_path.exists(), 'independent data-only reader not implemented')
+AssertionError: False is not true : independent data-only reader not implemented
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=8)

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/run_independent_validation.py", line 104, in <module>
+    main()
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/run_independent_validation.py", line 74, in main
+    run(['write','a',a],destination/'write-a.json')
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/run_independent_validation.py", line 34, in run
+    raise RuntimeError('fresh process failed: '+str(output))
+RuntimeError: fresh process failed: validation/results/integration/write-a.json

@@ -1,0 +1,77 @@
+...........FFFFFFFF.....
+======================================================================
+FAIL: test_refined_text_contract (test_text_contract.TextContractTests.test_refined_text_contract) (field='unit', value_length=1025)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_text_contract.py", line 18, in test_refined_text_contract
+    with self.assertRaises(self.r.InvalidArtifact):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: InvalidArtifact not raised
+
+======================================================================
+FAIL: test_refined_text_contract (test_text_contract.TextContractTests.test_refined_text_contract) (field='unit', value_length=10)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_text_contract.py", line 18, in test_refined_text_contract
+    with self.assertRaises(self.r.InvalidArtifact):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: InvalidArtifact not raised
+
+======================================================================
+FAIL: test_refined_text_contract (test_text_contract.TextContractTests.test_refined_text_contract) (field='unit', value_length=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_text_contract.py", line 18, in test_refined_text_contract
+    with self.assertRaises(self.r.InvalidArtifact):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: InvalidArtifact not raised
+
+======================================================================
+FAIL: test_refined_text_contract (test_text_contract.TextContractTests.test_refined_text_contract) (field='label', value_length=257)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_text_contract.py", line 18, in test_refined_text_contract
+    with self.assertRaises(self.r.InvalidArtifact):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: InvalidArtifact not raised
+
+======================================================================
+FAIL: test_refined_text_contract (test_text_contract.TextContractTests.test_refined_text_contract) (field='description', value_length=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_text_contract.py", line 18, in test_refined_text_contract
+    with self.assertRaises(self.r.InvalidArtifact):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: InvalidArtifact not raised
+
+======================================================================
+FAIL: test_refined_text_contract (test_text_contract.TextContractTests.test_refined_text_contract) (field='description', value_length=1025)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_text_contract.py", line 18, in test_refined_text_contract
+    with self.assertRaises(self.r.InvalidArtifact):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: InvalidArtifact not raised
+
+======================================================================
+FAIL: test_refined_text_contract (test_text_contract.TextContractTests.test_refined_text_contract) (field='revision', value_length=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_text_contract.py", line 18, in test_refined_text_contract
+    with self.assertRaises(self.r.InvalidArtifact):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: InvalidArtifact not raised
+
+======================================================================
+FAIL: test_refined_text_contract (test_text_contract.TextContractTests.test_refined_text_contract) (field='revision', value_length=129)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_text_contract.py", line 18, in test_refined_text_contract
+    with self.assertRaises(self.r.InvalidArtifact):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: InvalidArtifact not raised
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.037s
+
+FAILED (failures=8)

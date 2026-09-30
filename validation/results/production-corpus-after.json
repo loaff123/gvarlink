@@ -1,0 +1,323 @@
+{
+  "successful": true,
+  "test_methods": 7,
+  "subcases": [
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='unknown_header')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='version')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='boolean_version')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='boolean_shape')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='negative_shape')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='oversize_shape')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='shape_product')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='too_many_dimensions')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='negative_nnz')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='boolean_nnz')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='too_many_nnz')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='wrong_payload')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='wrong_interpretation')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='long_string')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='deep_json')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='duplicate_uuid')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_unknown')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_model')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_order')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_shape_zero')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_shape_big')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_shape_boolean')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_bad_uuid')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_noncanonical_uuid')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_hostile_metadata",
+      "case": "test_rejects_rehashed_hostile_metadata (__main__.CandidateCorpus.test_rejects_rehashed_hostile_metadata) (case='source_bad_hash')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_duplicate_noncanonical_and_large_integer_json",
+      "case": "test_rejects_duplicate_noncanonical_and_large_integer_json (__main__.CandidateCorpus.test_rejects_duplicate_noncanonical_and_large_integer_json) (variant='<function ReferenceReaderTests.test_rejects_duplicate_noncanonical_and_large_integer_json.<locals>.<lambda> at 0x7f73c6c11080>')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_duplicate_noncanonical_and_large_integer_json",
+      "case": "test_rejects_duplicate_noncanonical_and_large_integer_json (__main__.CandidateCorpus.test_rejects_duplicate_noncanonical_and_large_integer_json) (variant='<function ReferenceReaderTests.test_rejects_duplicate_noncanonical_and_large_integer_json.<locals>.<lambda> at 0x7f73c6c11120>')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_duplicate_noncanonical_and_large_integer_json",
+      "case": "test_rejects_duplicate_noncanonical_and_large_integer_json (__main__.CandidateCorpus.test_rejects_duplicate_noncanonical_and_large_integer_json) (variant='<function ReferenceReaderTests.test_rejects_duplicate_noncanonical_and_large_integer_json.<locals>.<lambda> at 0x7f73c6c111c0>')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_duplicate_noncanonical_and_large_integer_json",
+      "case": "test_rejects_duplicate_noncanonical_and_large_integer_json (__main__.CandidateCorpus.test_rejects_duplicate_noncanonical_and_large_integer_json) (variant='<function ReferenceReaderTests.test_rejects_duplicate_noncanonical_and_large_integer_json.<locals>.<lambda> at 0x7f73c6c10fe0>')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='indptr_first')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='indptr_last')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='indptr_decreasing')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='duplicate_columns')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='unsorted_columns')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='outside_columns')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='explicit_zero')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='negative_zero')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='nan_data')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='infinite_data')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_rehashed_bad_csr_and_nonfinite",
+      "case": "test_rejects_rehashed_bad_csr_and_nonfinite (__main__.CandidateCorpus.test_rejects_rehashed_bad_csr_and_nonfinite) (case='nan_mean')",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_corruption_truncation_trailing",
+      "case": "test_rejects_corruption_truncation_trailing (__main__.CandidateCorpus.test_rejects_corruption_truncation_trailing) (case=0)",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_corruption_truncation_trailing",
+      "case": "test_rejects_corruption_truncation_trailing (__main__.CandidateCorpus.test_rejects_corruption_truncation_trailing) (case=1)",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_corruption_truncation_trailing",
+      "case": "test_rejects_corruption_truncation_trailing (__main__.CandidateCorpus.test_rejects_corruption_truncation_trailing) (case=2)",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_corruption_truncation_trailing",
+      "case": "test_rejects_corruption_truncation_trailing (__main__.CandidateCorpus.test_rejects_corruption_truncation_trailing) (case=3)",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_corruption_truncation_trailing",
+      "case": "test_rejects_corruption_truncation_trailing (__main__.CandidateCorpus.test_rejects_corruption_truncation_trailing) (case=4)",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_corruption_truncation_trailing",
+      "case": "test_rejects_corruption_truncation_trailing (__main__.CandidateCorpus.test_rejects_corruption_truncation_trailing) (case=5)",
+      "passed": true
+    },
+    {
+      "test": "test_rejects_corruption_truncation_trailing",
+      "case": "test_rejects_corruption_truncation_trailing (__main__.CandidateCorpus.test_rejects_corruption_truncation_trailing) (case=6)",
+      "passed": true
+    },
+    {
+      "test": "test_refined_text_contract",
+      "case": "test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) (field='unit', value_length=1025)",
+      "passed": true
+    },
+    {
+      "test": "test_refined_text_contract",
+      "case": "test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) (field='unit', value_length=10)",
+      "passed": true
+    },
+    {
+      "test": "test_refined_text_contract",
+      "case": "test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) (field='unit', value_length=1)",
+      "passed": true
+    },
+    {
+      "test": "test_refined_text_contract",
+      "case": "test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) (field='label', value_length=257)",
+      "passed": true
+    },
+    {
+      "test": "test_refined_text_contract",
+      "case": "test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) (field='description', value_length=0)",
+      "passed": true
+    },
+    {
+      "test": "test_refined_text_contract",
+      "case": "test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) (field='description', value_length=1025)",
+      "passed": true
+    },
+    {
+      "test": "test_refined_text_contract",
+      "case": "test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) (field='revision', value_length=0)",
+      "passed": true
+    },
+    {
+      "test": "test_refined_text_contract",
+      "case": "test_refined_text_contract (__main__.CandidateCorpus.test_refined_text_contract) (field='revision', value_length=129)",
+      "passed": true
+    },
+    {
+      "test": "test_production_small_limits",
+      "case": "test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) (field='max_file_bytes')",
+      "passed": true
+    },
+    {
+      "test": "test_production_small_limits",
+      "case": "test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) (field='max_header_bytes')",
+      "passed": true
+    },
+    {
+      "test": "test_production_small_limits",
+      "case": "test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) (field='max_rows')",
+      "passed": true
+    },
+    {
+      "test": "test_production_small_limits",
+      "case": "test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) (field='max_latents')",
+      "passed": true
+    },
+    {
+      "test": "test_production_small_limits",
+      "case": "test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) (field='max_nnz')",
+      "passed": true
+    },
+    {
+      "test": "test_production_small_limits",
+      "case": "test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) (field='max_sources')",
+      "passed": true
+    },
+    {
+      "test": "test_production_small_limits",
+      "case": "test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) (field='max_rank')",
+      "passed": true
+    },
+    {
+      "test": "test_production_small_limits",
+      "case": "test_production_small_limits (__main__.CandidateCorpus.test_production_small_limits) (field='max_depth')",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "errors": []
+}

@@ -1,0 +1,10 @@
+test_context_coordinate_cap_does_not_partial_register (__main__.IdentityTests.test_context_coordinate_cap_does_not_partial_register) ... ok
+test_equal_labels_values_different_uuid_remain_independent (__main__.IdentityTests.test_equal_labels_values_different_uuid_remain_independent) ... ok
+test_labels_can_differ_but_shared_definition_cancels (__main__.IdentityTests.test_labels_can_differ_but_shared_definition_cancels) ... ok
+test_same_uuid_definition_changes_reject_transactionally (__main__.IdentityTests.test_same_uuid_definition_changes_reject_transactionally) ... ok
+test_whole_blocks_reorder_without_coordinate_reinterpretation (__main__.IdentityTests.test_whole_blocks_reorder_without_coordinate_reinterpretation) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.038s
+
+OK

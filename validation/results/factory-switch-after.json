@@ -1,0 +1,12 @@
+{
+  "serialized_indices": [
+    0,
+    1
+  ],
+  "expected_indices": [
+    0,
+    1
+  ],
+  "same_covariance_world": true,
+  "passed": true
+}

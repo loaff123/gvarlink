@@ -1,0 +1,6 @@
+include LICENSE README.md THIRD_PARTY.md requirements-validation.txt
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include validation *.py *.md *.sha256 *.json *.txt
+recursive-exclude * __pycache__ *py[cod]

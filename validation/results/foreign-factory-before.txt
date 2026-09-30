@@ -1,0 +1,15 @@
+{
+  "owned_derivative_indices": [
+    0
+  ],
+  "foreign_derivative_indices": [
+    0
+  ],
+  "foreign_variance": 9.0,
+  "passed": false,
+  "accepted_foreign_dependency": true,
+  "serialized_coefficients": [
+    1.0
+  ],
+  "restored_variance": 1.0
+}

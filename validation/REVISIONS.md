@@ -1,0 +1,9 @@
+# Validation revisions
+
+2026-09-30, after independent-reader v1 self-tests but before production compatibility results: the implementer refined text bounds to label <=256, nonempty revision <=128, nonempty description <=1024, unit <=1024; U+0000..U+001F and lone surrogate code points are invalid. The earlier schema said only bounded strings, and the independent reader used a common 4096-character bound. Added eight failing text cases, then implemented these narrower field bounds. No fixture mathematics, tolerances, source identity, file layout, or existing passing checks changed. The original reader is retained as history/reference_reader.v1.py and original manifests/results remain intact. `reader-v2-freeze.sha256` fingerprints the narrowed reader and new tests.
+
+The first candidate integration invocation occurred before Context was implemented and stopped at AttributeError (missing gvarlink.Context). It produced no artifact or numerical candidate result. Its original log is retained under results/integration-initial.txt and results/integration/write-a.json. This is an incomplete-implementation check, not a numerical failure.
+
+## Cross-platform runner revision (after initial numerical results)
+
+The original Linux-only integration runner and reference test are retained under history/. Their original manifests continue to describe those historical bytes. The current runner imports resource conditionally, requests POSIX address/CPU limits only on Linux, records null on other systems, and keeps the same30-second subprocess wall timeout. Default runs now use a fresh temporary directory, so replay never overwrites retained evidence. Reference symlink tests report skip when OS/account cannot create a link. Mathematical fixture, expected values and tolerance are unchanged. The current portable runner/test hashes are in portable-runner-freeze.sha256.

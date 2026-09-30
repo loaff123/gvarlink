@@ -1,0 +1,15 @@
+# Agreed independent-reader schema v1
+
+Agreed with implementer 2026-09-30 before reader implementation or compatibility results. This refines PROTOCOL.md; it does not change the mathematics or tolerance.
+
+Canonical JSON is exactly `json.dumps(object, ensure_ascii=True, allow_nan=False, sort_keys=True, separators=(',', ':')).encode('ascii')`. Header bytes must equal that encoding. Its exact keys are format, version, shape, unit, interpretation, sources, nnz, payload_bytes, arrays. Format is `gvarlink`, version integer 1; shape is a list of nonnegative integer dimensions with rank <=8; scalar [] means one value and an output zero dimension permits empty outputs. Booleans are not integers. Interpretation is affine or linearized. Arrays has exactly mean, indptr, indices, data keys containing lowercase SHA-256 hex.
+
+Each source has exactly uuid, label, revision, description, shape, model, order, basis_hash. UUID is canonical lowercase; labels do not define identity. Source shape [] is a scalar coordinate; other source dimensions must be positive. Model is independent-standard-normal-v1 and order is C. Basis hash is SHA-256 of canonical JSON using exactly revision, description, shape, model, order. Duplicate UUIDs are invalid within a file. Across files, same UUID with any different complete basis definition is invalid; labels may differ. No basis permutation reconciliation is performed.
+
+File: magic ASCII GVARLNK1 (8 bytes), little-endian unsigned header length (8 bytes), canonical header, then mean f8[n], indptr u8[n+1], indices u8[nnz], data f8[nnz] as contiguous little-endian raw numeric bytes. Final 32 bytes are SHA-256 over all preceding bytes. No padding/trailing data. Payload bytes = 8*n + 8*(n+1) + 16*nnz. n is the dimension product. CSR indptr begins at zero, ends at nnz and is monotone; indices in each row are strictly increasing and in range. Means and coefficients are finite; coefficients are nonzero.
+
+Reader limits default to 1 MiB header, 64 MiB file, 100000 rows, 200000 source coordinates, 2000000 nnz, 1024 source blocks, rank 8 and JSON depth 16. Caller limits may only lower these. This reference adds bounded strings (4096 characters) and integer tokens (20 characters) consistent with stricter admission. Nonregular files and symlinks are rejected. Open descriptor remains authoritative; O_NONBLOCK and O_NOFOLLOW where available avoid FIFO blocking and symlink following. These admission limits do not prove bounded Python/gvar process RSS. Finite coefficients may still overflow a caller's later covariance computation; transport does not execute covariance.
+
+## Refined text contract
+
+All header strings have a4096-character parser ceiling. Source label is0–256 characters, revision1–128, description1–1024; unit is0–1024. These fields reject Unicode code points below32 and lone surrogates U+D800–U+DFFF. No whitespace trimming or Unicode normalization is performed; exact description/revision strings affect basis identity.

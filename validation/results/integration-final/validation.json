@@ -1,0 +1,110 @@
+{
+  "artifact_sha256": {
+    "a.gvl": "caa36a97a54e1a1a156ff4e71b57362da7080d0e79817de546b4069e9ade53e7",
+    "b.gvl": "0d806c723150e403d26a2a21e6b468d12ace7a04fa46e363e634991026b37bad"
+  },
+  "independent_fraction_cross_covariance_exact": true,
+  "independent_reader_factors_exact": true,
+  "merged": {
+    "a_covariance": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 15.25
+    },
+    "a_means": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0,
+      "reference_scale": 7.0
+    },
+    "b_covariance": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 7.0625
+    },
+    "b_means": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0,
+      "reference_scale": 7.0
+    },
+    "contrast_covariance": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 24.3125
+    },
+    "contrast_means": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 7.0
+    },
+    "cross_covariance": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 5.25
+    },
+    "joint_covariance": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 15.25
+    },
+    "total_contrast_variance": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0,
+      "reference_scale": 38.3125
+    }
+  },
+  "native_joint": {
+    "a_covariance": {
+      "maximum_absolute_error": 3.375077994860476e-14,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 15.25
+    },
+    "a_means": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0,
+      "reference_scale": 7.0
+    },
+    "b_covariance": {
+      "maximum_absolute_error": 1.5987211554602254e-14,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 7.0625
+    },
+    "b_means": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0,
+      "reference_scale": 7.0
+    },
+    "contrast_covariance": {
+      "maximum_absolute_error": 5.3290705182007514e-14,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 24.3125
+    },
+    "contrast_means": {
+      "maximum_absolute_error": 0.0,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 7.0
+    },
+    "cross_covariance": {
+      "maximum_absolute_error": 1.1546319456101628e-14,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 5.25
+    },
+    "joint_covariance": {
+      "maximum_absolute_error": 3.375077994860476e-14,
+      "maximum_expected_zero_error": 0.0,
+      "reference_scale": 15.25
+    },
+    "total_contrast_variance": {
+      "maximum_absolute_error": 5.684341886080802e-14,
+      "maximum_expected_zero_error": 0,
+      "reference_scale": 38.3125
+    }
+  },
+  "separate_contexts_do_not_correlate": true,
+  "separate_processes": 3,
+  "versions": {
+    "gvar": "13.1.10",
+    "gvarlink": "0.1.0",
+    "numpy": "2.3.5",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+  }
+}

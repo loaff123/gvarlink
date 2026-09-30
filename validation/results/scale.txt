@@ -1,0 +1,28 @@
+[
+  {
+    "action": "0",
+    "file_bytes": 6292754,
+    "maxrss_platform_units": 92636,
+    "wall_seconds": 1.797027298998728
+  },
+  {
+    "action": "1",
+    "file_bytes": 6292754,
+    "maxrss_platform_units": 91864,
+    "wall_seconds": 1.896683104998374
+  },
+  {
+    "action": "merge",
+    "branch_sum_variances": [
+      68096.0,
+      68096.0
+    ],
+    "maxrss_platform_units": 123596,
+    "nnz_total": 720896,
+    "rows_per_branch": 32768,
+    "selected_covariance_max_error": 0.0,
+    "source_union": 135176,
+    "sum_contrast_variance": 5120.0,
+    "wall_seconds": 31.495396414000425
+  }
+]

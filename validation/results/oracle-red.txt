@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_original_affine_model_has_frozen_hand_checks (test_fraction_oracle.ExactOracleTests.test_original_affine_model_has_frozen_hand_checks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/9b51759ecff4/gvarlink/validation/test_fraction_oracle.py", line 11, in test_original_affine_model_has_frozen_hand_checks
+    self.assertTrue(path.exists(), 'independent Fraction oracle has not been implemented')
+AssertionError: False is not true : independent Fraction oracle has not been implemented
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
