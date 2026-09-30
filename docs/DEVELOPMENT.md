@@ -1,8 +1,8 @@
 # Development record
 
-Plan: docs/superpowers/plans/2026-09-30-gvarlink.md
+Plan: docs/implementation-plan.md
 
-Spec approved for autonomous component implementation; no standalone-engine or academic-impact claim. Fresh isolated repository, develop branch.
+The component specification deliberately excludes a standalone engine or academic-impact claim.
 
 - Model: 19 tests failed on missing public API, then 19 passed
 - Format: 31 tests failed on missing reader/writer API, then aggregate suite 50 passed

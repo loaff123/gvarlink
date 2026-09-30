@@ -36,7 +36,7 @@ A hostile producer can recompute every hash and reuse a declared UUID for a diff
 
 ### S3: admission budgets do not bound the entire numerical runtime (documented boundary)
 
-The finite file/header/shape/nnz budgets are admission checks, not RSS guarantees or an OS sandbox. gvar's global covariance allocations are outside registry transaction rollback. Input descriptors stay authoritative and final symlinks/FIFOs are rejected, but the implementation does not promise defense against malicious same-user OS mutation. Hard-link publication/no-clobber behavior and lack of directory fsync need platform/local-filesystem caveats. External large-scale workload validation remains the parent workflow's separate gate.
+The finite file/header/shape/nnz budgets are admission checks, not RSS guarantees or an OS sandbox. gvar's global covariance allocations are outside registry transaction rollback. Input descriptors stay authoritative and final symlinks/FIFOs are rejected, but the implementation does not promise defense against malicious same-user OS mutation. Hard-link publication/no-clobber behavior and lack of directory fsync need platform/local-filesystem caveats. Larger workload validation is recorded separately in docs/validation.md.
 
 ## Final disposition
 
@@ -82,4 +82,4 @@ A separate read-only review found and verified fixes for these additional issues
 - Nested NumPy arrays within Python lists are rejected before object-array conversion; pass a single ndarray or rectangular nested lists
 - Per-row nnz checks now run before each retained derivative entry, rather than after constructing the row. A failing limit-before-later-dependency regression closed it; gvar's extraction itself can still allocate against existing in-memory input
 
-The reviewer exercised100 original seeded dyadic affine cases with constant rows, block permutations and repacking; full covariance matrices matched exactly. It also ran30 selected model/adapter tests with3 file-related tests deliberately excluded. Broader filesystem/security review was paused after a generic tool-level restriction; no exact denied tool action was visible to that reviewer. No retry/reroute of a denied action was attempted. This incomplete broader review is not covered by the successful independent finite format corpus.
+The reviewer exercised100 original seeded dyadic affine cases with constant rows, block permutations and repacking; full covariance matrices matched exactly. It also ran30 selected model/adapter tests with3 file-related tests deliberately excluded. A broader independent filesystem/security review has not been completed. This incomplete broader review is not covered by the successful independent finite format corpus.

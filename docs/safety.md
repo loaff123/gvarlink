@@ -1,6 +1,6 @@
 # Input safety and trust boundaries
 
-GVarLink is experimental. Its parser deliberately has a small, closed input language, but test coverage and an independent agent review are not proof of production security. A broader security review was interrupted by a tool-level restriction with no exact denied operation reported; it was not resumed through another tool. Successful bounded-format tests and numerical review are reported separately.
+GVarLink is experimental. Its parser deliberately has a small, closed input language, but test coverage and an independent agent review are not proof of production security. A broader independent security review has not been completed. Successful bounded-format tests and numerical review are reported separately.
 
 ## What the reader checks
 

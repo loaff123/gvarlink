@@ -12,7 +12,7 @@ Original synthetic data only. Frozen specification/protocol is in validation/PRO
 - Independent numerical reviewer:100 seeded dyadic cases with constant rows, source-block permutations and repacking matched covariance exactly
 - Review-found factory-local index aliasing, global factory switch, constant-row interoperability, aggregate allocation ordering and nested-array admission bugs repaired with failed-before/passed-after regressions
 
-These specific tests do not establish production security. A separately attempted broader filesystem/security review remained incomplete after a tool-level restriction with no exact denied operation visible to that reviewer. It was not bypassed or retried through another route. See validation/REVIEW.md and docs/safety.md.
+These specific tests do not establish production security. A broader independent filesystem/security review has not been completed. See validation/REVIEW.md and docs/safety.md.
 
 ## Larger transport check
 
@@ -30,7 +30,7 @@ Every mean and marginal variance passed. Selected32×32 within/cross covariance 
 
 ## Cross-platform and package verification
 
-CI defines Python3.11–3.14 on Linux, macOS and Windows. Until the final remote run succeeds, those combinations are configured targets, not locally verified results. POSIX symlink/FIFO tests skip where the OS/account cannot create them. Integration runner requests Linux resource limits only; other systems record them as unavailable and retain wall timeouts.
+The first published source commit b31f9d0 passed all12 Python3.11–3.14 × Linux/macOS/Windows CI jobs, including package tests, independent reference checks, three-process integration, wheel build and outside-checkout wheel smoke. See validation/results/ci-initial-release.json and the linked [run](https://github.com/loaff123/gvarlink/actions/runs/36786194188). Later commits have their own CI status; do not infer a pass from this historical receipt. POSIX symlink/FIFO tests skip where the OS/account cannot create them. Integration runner requests Linux resource limits only; other systems record them as unavailable and retain wall timeouts.
 
 Build with `python -m build --no-isolation`, then `python validation/wheel_smoke.py`. The wheel smoke installs into an isolated environment populated from the retained dependency pins, clears PYTHONPATH, runs outside the checkout and executes the real three-process demo. Source/distribution archives contain original source/tests/docs, not dependency binaries.
 

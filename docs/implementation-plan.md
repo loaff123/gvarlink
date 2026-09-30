@@ -1,11 +1,11 @@
 # GVarLink Implementation Plan
 
-> For agentic workers: use superpowers:executing-plans task-by-task. Native implementation plus independent format/oracle and final security/numerical review.
+Implementation sequence with independent format/oracle and numerical review.
 
 **Goal:** Preserve explicitly shared gvar sources across separately authored artifacts with bounded numeric-only parsing.
 **Architecture:** Immutable source and numeric artifact model; fixed binary envelope; gvar context adapter; thin CLI/examples. Numerical propagation remains in gvar.
 **Tech stack:** Python 3.11-3.14, NumPy, gvar 13.1.10 (pinned derivative API), pytest. GPL-3.0-or-later.
-**Spec:** ../specs/2026-09-30-gvarlink-design.md
+**Spec:** design.md
 
 ## Global constraints
 Defaults: 1MiB header, 64MiB file/payload aggregate, 100000 rows, 200000 coordinates, 2000000 nnz, 1024 blocks, rank8, JSON depth16. Independent standardized latent basis only; same UUID/different definition rejects. No pickle, NPY/archive reader, executable metadata, remote references or covariance engine. Original synthetic data only. Record finite-only and floating-point semantics. Core file limits are not an OS RSS limit. No outward communications beyond authorized publication of original work.

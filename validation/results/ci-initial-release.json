@@ -1,0 +1,81 @@
+{
+  "repository": "https://github.com/loaff123/gvarlink",
+  "commit": "b31f9d0758c062f7da6ea1fda2562b951c7e415e",
+  "tree": "1ecdf32d1903780cb975137822b616c94fbb016c",
+  "run_url": "https://github.com/loaff123/gvarlink/actions/runs/36786194188",
+  "jobs": [
+    {
+      "id": 110128055264,
+      "name": "test (ubuntu-latest, 3.11)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055350,
+      "name": "test (windows-latest, 3.11)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055391,
+      "name": "test (macos-latest, 3.14)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055404,
+      "name": "test (windows-latest, 3.12)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055418,
+      "name": "test (macos-latest, 3.12)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055434,
+      "name": "test (ubuntu-latest, 3.14)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055440,
+      "name": "test (windows-latest, 3.14)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055464,
+      "name": "test (ubuntu-latest, 3.12)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055472,
+      "name": "test (macos-latest, 3.11)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055501,
+      "name": "test (ubuntu-latest, 3.13)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055523,
+      "name": "test (macos-latest, 3.13)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 110128055647,
+      "name": "test (windows-latest, 3.13)",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "all_12_passed": true
+}

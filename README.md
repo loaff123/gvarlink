@@ -6,6 +6,10 @@ GVarLink is a small, experimental persistence companion to [gvar](https://gvar.r
 
 It is useful when two independent jobs share a calibration or background measurement, save results separately, and later need a contrast that retains the cross-covariance. It is **not** a new covariance engine, an authentication system, or a production-security certification.
 
+[Explore the static source-identity demo](https://gvarlink-source-identity.lyczz.chatgpt.site) · [CI runs](https://github.com/loaff123/gvarlink/actions)
+
+The browser demo illustrates the declared-identity model; it does not run Python or validate uploaded files.
+
 ## Start in one minute
 
 Python 3.11 or later. Install from a source checkout:
